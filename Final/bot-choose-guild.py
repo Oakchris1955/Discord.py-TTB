@@ -26,4 +26,4 @@ async def on_ready():
 		channel = channels_list[channel_number]
 		await channel.send(input('Enter your message here: '))
 	    
-client.run("Enter your bot's token here")
+client.run("Enter your bot's token here") #change this string ⏪
