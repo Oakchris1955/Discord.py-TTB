@@ -26,7 +26,7 @@ async def on_ready():
 		channel = channels_list[channel_number]
 		await channel.send(input('Enter your message here: '))
 	    
-client.run('ODE2OTYxNTM1NDAyNDQyNzYy.YECkuA.hGMQstjhfMOWyVgWdkkGAIKm_9I')
+client.run("your bot's token goes here")
 
 		#inpmes = input('Enter: ')
 		#print(bot.get_channel(817709050493403146))
