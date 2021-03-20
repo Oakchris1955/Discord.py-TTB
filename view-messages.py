@@ -9,10 +9,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-	print('In server:', message.guild, ', by:', message.author, ', Message:', message.content)
+	print('From:',message.author,', In:',message.guild,', Channel:',message.channel,', Content:',message.content)
 
-#client.run(sys.argv[1:][0])
-#print(sys.argv[1:][0])
 with open('token.txt') as tf:
 	token = tf.read()
 client.run(token)
