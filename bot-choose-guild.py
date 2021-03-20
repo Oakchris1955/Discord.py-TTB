@@ -28,4 +28,4 @@ async def on_ready():
 		await channel.send(input('Enter your message here: '))
 	    
 #client.run(sys.argv[1:][0])
-client.run('ODE2OTYxNTM1NDAyNDQyNzYy.YECkuA.BTguNm7bLFYHRXubiCFXvtTemb0')
+client.run('')
