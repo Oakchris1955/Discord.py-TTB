@@ -29,6 +29,6 @@ async def on_ready():
 		await channel.send(input('Enter your message here: '))
 	    
 #client.run(sys.argv[1:][0])
-with open('token.txt') as tf:
+with open('token.txt') as tk:
 	token = tk.read()
 client.run(token)
