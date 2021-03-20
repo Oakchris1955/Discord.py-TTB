@@ -1,6 +1,7 @@
 import discord
 
 client = discord.Client()
+token = ''
 
 @client.event
 async def on_ready():
@@ -12,4 +13,6 @@ async def on_message(message):
 
 #client.run(sys.argv[1:][0])
 #print(sys.argv[1:][0])
-client.run('')
+with open('token.txt') as tf:
+	token = tf.read()
+client.run(token)
