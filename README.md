@@ -7,3 +7,6 @@ Be sure to read any comments and make any changes they advise you to do
 - Discord.py
 
 - Python 3.9.0
+
+# Usage:
+Firstly edit "token.txt". Enter your bot's token there. Then launch main.py and you are ready to go
