@@ -3,6 +3,7 @@ import discord
 client = discord.Client()
 
 channels_list = []
+token = ''
 
 @client.event
 async def on_ready():
@@ -28,4 +29,6 @@ async def on_ready():
 		await channel.send(input('Enter your message here: '))
 	    
 #client.run(sys.argv[1:][0])
-client.run('')
+with open('token.txt') as tf:
+	token = tk.read()
+client.run(token)
