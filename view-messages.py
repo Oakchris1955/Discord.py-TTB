@@ -12,4 +12,4 @@ async def on_message(message):
 
 #client.run(sys.argv[1:][0])
 #print(sys.argv[1:][0])
-client.run('ODE2OTYxNTM1NDAyNDQyNzYy.YECkuA.BTguNm7bLFYHRXubiCFXvtTemb0')
+client.run('')
