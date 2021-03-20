@@ -27,8 +27,7 @@ async def on_ready():
 		print(channels_list[channel_number].name)
 		channel = channels_list[channel_number]
 		await channel.send(input('Enter your message here: '))
-	    
-#client.run(sys.argv[1:][0])
+
 with open('token.txt') as tk:
 	token = tk.read()
 client.run(token)
