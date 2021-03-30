@@ -1,1 +1,1 @@
-Enter your bot's token there
+Enter your bot's token here
