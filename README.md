@@ -4,9 +4,14 @@ Use this to talk through a bot account.
 
 ~~Be sure to read any comments and make any changes they advise you to do (if any)~~
 # Requirements:
-- Discord.py
+- Discord.py (read below for more information)
 
-- Python 3.9.0
+- Python 3.9.0, which you can download [here](https://www.python.org/downloads/)
 
 # Usage:
 Firstly edit "token.txt". Enter your bot's token there. Then launch main.pyw and you are ready to go
+# About discord.py
+To download discord.py make sure you have pip installed, then open CMD.EXE and type:
+```
+pip install -U discord.py
+```
