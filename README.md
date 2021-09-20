@@ -13,5 +13,5 @@ Firstly edit "token.txt". Enter your bot's token there. Then launch main.pyw and
 # About discord.py
 To download discord.py make sure you have pip installed, then open CMD.EXE and type:
 ```
-pip install -U discord.py
+python3 -m pip install --upgrade discord.py
 ```
